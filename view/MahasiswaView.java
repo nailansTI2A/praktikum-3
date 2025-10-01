@@ -6,7 +6,7 @@ public class MahasiswaView {
 
     public static void main(String[] args) {
         
-        Mahasiswa mahasiswa = new Mahasiswa(); // perbaikan
+        Mahasiswa mahasiswa = new Mahasiswa(); 
         mahasiswa.ipk = 3.7f;
 
         System.out.println("IPK Mahasiswa: " + mahasiswa.ipk);
